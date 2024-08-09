@@ -2,7 +2,7 @@
 body
 {font-family: Nexa-Trial, Geneva, Tahoma, sans-serif;
     text-align: center ;
-    font-size: 20px;
+    font-size: 3.5vw;
     
 }
 
@@ -52,7 +52,7 @@ aside {
 
 footer {
     display: grid;
-    height: 30vh;
+    height: 35vh;
     grid-template-columns: repeat(4, 4fr);
     text-align: center;
     justify-content: center;
@@ -68,9 +68,12 @@ main{
     grid-template-columns: 3fr 1fr;
     height: 50vh;
 }
-/* @media screen and ((min-width: 768px)) {
-    body{font-size: 4vw;}
-} */
+
 @media screen and (min-width:1016px) {
-    footer{height: 10vh;}
+    footer{height: 20vh;}
+    
+}
+@media screen and (max-width:1016px) {
+    .container1{height: 15vh;}
+    
 }
